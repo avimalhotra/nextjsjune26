@@ -1,4 +1,5 @@
 import Footer from "./footer";
+import Nav from "./nav/page";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       <header>
         <h1 className="text-4xl font-bold">Hello Next JS</h1>
       </header>
+       <Nav></Nav>
       <main>
         <p className="my-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo

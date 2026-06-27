@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Footer from "../../footer";
+import Link from "next/link";
 
 export default async function Home({ params }: { params: { slug: string } }) {
   const { slug } = await params;
